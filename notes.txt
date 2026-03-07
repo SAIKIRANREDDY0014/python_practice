@@ -1,0 +1,7 @@
+day1
+
+dev by guido vaan rossum
+free and open source
+portable
+ 
+variables & data types 
