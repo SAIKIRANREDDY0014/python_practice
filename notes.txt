@@ -8,7 +8,7 @@ module types
 buitin 
 externaal 
 
-pip 
+pip - package manager 
 
 Rapl - cmd -> python 
 
@@ -28,7 +28,25 @@ operators
 arithmetic - +-/*
 assignment - =,+=,-= etc
 comparison - <,>, ==, <= ,!= etc 
-logical - and,or,not
+logical - and,or,not 
+
+type() function 
+type(a)
+
+type casting 
+
+float(b) -- str to float
+str(a)
+int("wde")
+
+input() function -- by default type is str 
+
+a**2 - square of a 
+
+
+
+
+
 
 
  
