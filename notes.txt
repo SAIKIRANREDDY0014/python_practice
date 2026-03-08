@@ -1,7 +1,34 @@
 day1
 
-dev by guido vaan rossum
+dev by guido vaan rossum -1991
 free and open source
 portable
+
+module types 
+buitin 
+externaal 
+
+pip 
+
+Rapl - cmd -> python 
+
+comments - #
+""" multi line comment """,''' ''' 
+
+variables
+
+data types 
+integer 
+float
+string
+boolean 
+none
+
+operators
+arithmetic - +-/*
+assignment - =,+=,-= etc
+comparison - <,>, ==, <= ,!= etc 
+logical - and,or,not
+
+
  
-variables & data types 
