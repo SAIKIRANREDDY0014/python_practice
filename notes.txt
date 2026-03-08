@@ -10,7 +10,7 @@ externaal
 
 pip - package manager 
 
-Rapl - cmd -> python 
+Rapl - cmd -> python   ---- read evaluate print load
 
 comments - #
 """ multi line comment """,''' ''' 
@@ -42,6 +42,23 @@ int("wde")
 input() function -- by default type is str 
 
 a**2 - square of a 
+
+
+strings
+
+datatype 
+sequence of chars 
+immutable
+
+'' "" ''' ''' - can define a str in three ways 
+
+slice 
+slice with skip value 
+functions 
+escape sequence characters
+// written in code files
+
+
 
 
 
