@@ -58,6 +58,12 @@ functions
 escape sequence characters
 // written in code files
 
+lists 
+we can change lists 
+
+
+
+
 
 
 
