@@ -60,6 +60,10 @@ escape sequence characters
 
 lists 
 we can change lists , modify lists 
+code files 
+
+tuples are immutable 
+written in code files 
 
 
 
