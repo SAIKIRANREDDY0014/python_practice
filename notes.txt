@@ -68,6 +68,14 @@ written in code files
 
 sets and dictionaries
 
+dictionaries 
+- key value pairs 
+- unordered
+- mutable - we can modify 
+- indexed 
+- cant contain duplicate keys 
+
+
 
 
 
