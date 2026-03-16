@@ -7,3 +7,6 @@ print(type(s))
 s1 ={1,1,1,4,4,3,6,7,7}
 print(s1)
 print(type(s1))
+
+s1.add(5)
+print(s1)
