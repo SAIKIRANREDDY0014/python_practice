@@ -6,6 +6,8 @@ dict  = {
 
 }
 
+d2 = {} # empty dictionary
+
 print(dict,type(dict))
 print(dict["ashok"])
 print(dict["lists"])
