@@ -86,6 +86,8 @@ collection of well defined objs
 // we cant add list as a element in sets 
 
 conditional statements 
+- relatrional operators 
+- logical operators 
 
 
 
