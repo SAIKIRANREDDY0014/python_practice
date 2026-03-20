@@ -90,6 +90,11 @@ conditional statements
 - logical operators 
 
 
+loops
+
+while loops
+for loops  
+
 
 
 
