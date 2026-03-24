@@ -95,8 +95,15 @@ loops
 while loops
 for loops  
 
-completed loops concept
+Inn for loop iterate item using in 
+for , else - it happens only for loop breaks out  
 
+
+break and continue 
+
+pass - it does nothing simply passes it to nxt operation 
+
+completed loops concept
 
 
 
