@@ -105,6 +105,8 @@ pass - it does nothing simply passes it to nxt operation
 
 completed loops concept
 
+started functions 
+
 
 
 
