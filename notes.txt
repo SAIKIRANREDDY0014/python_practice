@@ -107,6 +107,12 @@ completed loops concept
 
 started functions 
 
+return a vaalue 
+default parameter 
+recursion
+
+
+
 
 
 
