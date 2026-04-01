@@ -115,6 +115,16 @@ Started project - game
 completed project 
 
 
+file handling 
+
+1) text files
+2)binary files
+
+open - open files 
+read - read files 
+close - closes the file 
+
+
 
 
 
