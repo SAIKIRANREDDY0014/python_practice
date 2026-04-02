@@ -1,0 +1,90 @@
+from re import A
+
+
+print("learning tupless ")
+# try:
+#     list = [0,1,2,3,4]
+#     x = list[5]
+#     print("i am done")
+# except IndexError:
+#     print("index out of bound")
+
+
+# def f():
+#      print(1/0)  
+
+# try:
+#     f()
+#     print("s")
+# except ZeroDivisionError:
+#     print("zer")
+# except:
+#    print("always ") 
+
+# a = A(1,2,3)
+# b = getattr(a,'x')
+# setattr(a,'x',b+1)
+# print(a.x)
+# class A: 
+#     def __init__(self,m,n,o):
+#          self.x = m+n+o
+
+
+# class Base:
+#     def __init__(self):
+#         self.a = 10
+#         self.b = 100
+
+#     def printit(self):
+#         print(self.a,self.b)    
+
+# class Sub(Base):
+#     def __init__(self):
+#         super().__init__()
+#         self.a = 20
+#         self.b = 200
+     
+# Sub().printit()
+
+
+# class A:
+#     def __init__(self):
+#         self.setme(10)
+        
+
+#     def setme(self,i):
+#         self.i = i+10  ;
+
+# class B(A):
+#     def __init__(self):
+#         super().__init__()
+#         print("value of i i s:",self.i)
+
+#     def setme(self,i):
+#         self.i = i+20;   
+
+# b = B()
+
+
+# x='abcdef'
+# while i in x:
+#     print(i,end=" ")
+
+
+# s = "Welcome to python"
+# print(s.split(" "))
+
+# m = [[x,x+1,x+2] for x in range(0,3)]
+# print(m)
+
+
+# list1 = [1,3]
+# list2 = list1
+# list1[0] = 4
+# print(list2)
+
+# kvps = {"user","bi","pass","hil"}
+# print(kvps['pass'])
+
+# a = int("abc")
+# print(a)

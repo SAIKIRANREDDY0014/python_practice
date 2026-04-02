@@ -123,8 +123,11 @@ file handling
 open - open files 
 read - read files 
 close - closes the file 
+file handling 
+w - overwrites an existing file if not creates one 
+f.readlines() - returns all line in a list 
 
-
+practice problems cmpleted - filehandling 
 
 
 
