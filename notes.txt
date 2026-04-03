@@ -129,7 +129,60 @@ f.readlines() - returns all line in a list
 
 practice problems cmpleted - filehandling 
 
+oops 
+class - bluprint for object 
 
+object - instance of a class
+
+attribute - belongs to class
+
+instance attributes 
+self parameter - refers to created object 
+self used as parameter to create methods 
+@staticmethod - no need to define a self in method as a parameter
+we can use pass in classes to avoid error 
+
+__init__() - constructor called when object created, dunder method  starts with double underscore 
+takes self as arguments and many
+
+The __str__() method is a special method that controls what is returned when the object is printed
+
+to access class attribute -- class_name.attribute 
+
+package import 
+
+import random -- random.randint(1,5)
+from random import randint -- randint(1,5)
+
+inheritance 
+types of inheritance 
+single inheritance -- p1->c1
+multiple inheritance p1,p2 -> c1
+muilti level inheritance  -- p1->c1->c2
+
+super() - parent class
+super().__init__() - parnt class constructor 
+
+
+
+
+need to revisit
+--------------
+@classmethod - bound to the class not the object of the class  
+instead of self we use cls 
+
+property decorators 
+@property -- we can return any value 
+e.function_name 
+
+@func_name.setter 
+e.func_name = 23
+
+operator overloading 
+
+__str__() -- method 
+
+__len__()
 
 
 
