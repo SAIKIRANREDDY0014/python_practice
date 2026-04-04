@@ -1,4 +1,3 @@
-day1
 
 dev by guido vaan rossum -1991
 free and open source
@@ -163,7 +162,26 @@ muilti level inheritance  -- p1->c1->c2
 super() - parent class
 super().__init__() - parnt class constructor 
 
+encapsulation
 
+It means keeping data (properties) and methods together in a class, while controlling how the data can be accessed from outside the class.
+
+This prevents accidental changes to your data and hides the internal details of how your class works.
+
+__var -- private property
+only within the class 
+_var -- protected property
+"This is for internal use (within class & subclasses)"
+It’s just a convention, not enforced
+
+setters and getters 
+
+Name mangling is how Python implements private properties and methods.
+When you use double underscores __, Python automatically renames it internally by adding _ClassName in front.
+__age becomes _Person__age.
+
+Inner class
+multiple inner class 
 
 
 need to revisit
