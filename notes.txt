@@ -185,6 +185,8 @@ multiple inner class
 
 Advance python  concepts - new features
 
+walrus operator
+
 
 need to revisit
 --------------
