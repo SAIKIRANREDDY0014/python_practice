@@ -208,6 +208,24 @@ __len__()
 
 
 
+advance python 
+
+walrus operator 
+allows to assign values to varbls as part of expression
+
+type definitions
+
+
+pandas 
+Pandas is a Python library.
+Pandas is used to analyze data.
+
+series
+dataframes
+csv 
+
+
+
 
 
 
