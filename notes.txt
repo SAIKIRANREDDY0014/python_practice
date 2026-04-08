@@ -224,6 +224,24 @@ series
 dataframes
 csv 
 
+Data cleaning means fixing bad data in your data set.
+
+Bad data could be:
+Empty cells
+Data in wrong format
+Wrong data
+Duplicates
+
+
+null or empty values 
+-- remove the rows 
+-- fill the empty cells with value , mean ,mode,median
+
+wrong format data 
+convert all cells into single format
+remove the rows
+
+
 
 
 
