@@ -272,6 +272,8 @@ corr() - method
 plot()
 plt.show
 
+Mini tasks
+
 
 
 
