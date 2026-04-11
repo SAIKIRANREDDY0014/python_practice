@@ -273,6 +273,7 @@ plot()
 plt.show
 
 Mini tasks
+task no 1
 
 
 
