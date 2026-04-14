@@ -1,0 +1,63 @@
+Etl pipeline
+batch processing , continuos processing 
+etl scripts 
+
+
+ansh lamba de course funda
+
+data engineering
+dat eng workflow
+
+
+data generation
+sql,nosql
+dat transformation
+
+data serving 
+-- dat models 
+
+upstream -DBA , Soft devlps
+downstream  - data analyst,data scientist,managers
+
+
+
+OLTP  db  - online transactional processing 
+
+DBA -> database each and every transaction like banking data 
+
+oltp db is a source for data engineers
+
+efficient for writes , updates
+smaller chunks of data 
+
+popular dbs used 
+
+postgresql
+MySQL
+
+
+DBA uses modeling concept in oltp 
+normalization used in this modeling or relational modeling 
+recommended till 1,2,3nfs
+
+
+OLAP  db - online analytical processing 
+
+also known as data warehouse 
+
+create data ware house which handles large data  which is -- efficient for reads 
+
+modeling -- dimensional modeling 
+
+we are the owner of this olap db 
+
+popular dbs used 
+
+whereScape red 
+
+snowflake - cloud based
+
+
+
+OLTP --- ETL --- OLAP 
+for the automation of this process we build ETL pipelines
