@@ -61,3 +61,131 @@ snowflake - cloud based
 
 OLTP --- ETL --- OLAP 
 for the automation of this process we build ETL pipelines
+
+data warehouse and layers
+
+data -> staging -> transform -> core(facts and dimensions)
+
+staging layers
+
+transient - temporary layer 
+persistent - if we want to store 
+
+
+incremental loading 
+only non existing data will be pulled and load into staging then core layers
+
+
+dimensional modeling 
+modeling technique 
+we store data in form of facts and dimensions 
+
+fact table - ex: stores only numeric values like product id , customer id ,bill,price 
+dimensions : diffrnt tables each one is categorized by clusters of data like customers,products 
+
+two types of data models 
+star schema  -- mostly used in real world
+snowflake schema -- hierarchy of dimesions(not used ) 
+
+if we change dat in source needs to change in dimension tables 
+
+slowly changing dimensions 
+
+type-0  -- assume the dim table doesn't change
+type 1 (UPSERT) - update + insert -- overwrite 
+changes gets overwrite and updates in fcats table also 
+
+type 2  (HISTORY)
+store the history like which data and what data changed 
+
+type 3 (PREVIOUS VALUE)
+it will store the previous value for updated value  
+
+
+Data lake 
+we can store unstructured data
+semi- structured data and all types of data 
+
+low cost and less time consuming 
+
+
+data lakehouse - means fusion of both data lake and data warehouse
+it contains metadata layer- which holds the schema of the layer  
+
+file formats 
+1)ow based  - csv,avro 
+OLTP dbs uses row based 
+
+2)column based  -- parquet,ORC
+OLAP dbs uses column based 
+
+
+DELTA format 
+built on top of the parquet files 
+
+Delta format contains 
+1)delta file 
+2)transaction log - every metadata gets stored in json file format 
+
+
+versioning - we can go back to previous queries also after executing new ones using transaction log 
+versioning allows schema evolution(adding new columns etc) also
+Delta file format we can use ACID properties al well 
+
+
+Big Data
+
+Big Data Frameworks 
+Apache Kafka - stream data , Real time data 
+Apache Airflow - orchestration ->orchestration - workflow management, Scheduling pipelines etc 
+Apache Hive - Data warehouse allows to query and manage large datasets 
+Apache Spark - distributed computing framework for big data analytics.
+cluster of nodes , Driver node - brain of cluster, worker nodes - cluster of computers 
+Databricks - management layer for apache spark 
+
+
+Cloud data engineering 
+main
+AWS
+Azure
+GCP
+
+Cloud computing
+
+
+Medallion Architecture 
+it is a data design pattern used to oraganize data in lake house 
+
+1)Bronze layer - push data from source to this layer as it is - no change then
+2) Silver layer - processing like cleaning,transformation
+3) Gold layer - data stored in form of dimesions and facts, aggregate tables etc as per reqs
+
+we do apply this architecture in cloud data engineer architecture 
+
+
+
+
+Cloud DE with Azure 
+----------------------
+Data streaming source 
+Azure events hub - continuously store streaming data in it
+
+Cloud Sql database
+
+data lake - Azure datalake storage gen 2 inside Azure Storage acnt 
+Hierarchial namespace  - we can store data in multiple folders inside folders 
+
+Cloud etl tool
+Azure data factory 
+
+BIG data transformation
+Data bricks - transforms data from raw into silver layer zone 
+databricks manages the spark and clusters creating,driver nodes,worker nodes etc   
+
+cloud data warehousing 
+Azure synapse analytics - equal to snowflake,redshift,Big Query 
+
+Data Reporting 
+power bi in azure 
+
+Azure Monitor and governance tools
