@@ -188,4 +188,5 @@ Azure synapse analytics - equal to snowflake,redshift,Big Query
 Data Reporting 
 power bi in azure 
 
-Azure Monitor and governance tools
+Azure Monitor and governance tools includes security
+ckmeeted foundations 
