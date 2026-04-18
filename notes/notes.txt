@@ -1,4 +1,4 @@
-
+python full notes
 dev by guido vaan rossum -1991
 free and open source
 portable
