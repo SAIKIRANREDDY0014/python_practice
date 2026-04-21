@@ -1,0 +1,51 @@
+GCP foundations
+
+Full course
+cloud - central location to store data
+cloud computing
+
+google follows third wave - container based architecture
+
+cloud service offerings :
+
+Infrastructure as a Service (IaaS)
+What it is: Renting raw infrastructure (servers, storage, networking) from a cloud provider.
+
+You manage: OS, runtime, applications.
+
+Example in GCP: Compute Engine (virtual machines).
+
+pay for what they allocate
+
+⚙️ Platform as a Service (PaaS)
+What it is: A ready‑made platform to build and deploy apps without worrying about infrastructure.
+
+You manage: Just your application code.
+
+Example in GCP: App Engine (deploy code, Google handles scaling and runtime).
+
+pay for what they use
+
+serverless cloud computing
+PaaS: Always-on platform, you deploy apps and the platform manages them.
+Serverless: Event-driven, runs only when needed, scales instantly to zero when idle.
+
+🖥️ Software as a Service (SaaS)
+What it is: Fully managed software delivered over the internet.
+
+You manage: Nothing — you just use the software.
+
+Example in GCP: Google Workspace (Docs, Gmail, Sheets).
+
+google cloud infrastructure
+big data and ml products
+compute || storage
+network and security
+
+region
+zones
+multi region
+
+43 regions 130 zones
+
+Container-based architecture is a way of building and running applications where the software is packaged into lightweight, portable units called containers. Each container includes the application code plus everything it needs to run (libraries, dependencies, runtime), so it can run consistently across different environments.
