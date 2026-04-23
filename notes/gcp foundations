@@ -49,3 +49,4 @@ multi region
 43 regions 130 zones
 
 Container-based architecture is a way of building and running applications where the software is packaged into lightweight, portable units called containers. Each container includes the application code plus everything it needs to run (libraries, dependencies, runtime), so it can run consistently across different environments.
+started intellipat course
