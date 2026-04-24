@@ -50,3 +50,18 @@ multi region
 
 Container-based architecture is a way of building and running applications where the software is packaged into lightweight, portable units called containers. Each container includes the application code plus everything it needs to run (libraries, dependencies, runtime), so it can run consistently across different environments.
 started intellipat course
+
+INtellipaat course
+
+cloud computing via internet
+ai driven - use ai to prevent cyber or malicous attack and recoomend us to reduce cost
+
+Gcp products and services
+categories:
+Networking
+storage
+compute
+Ai
+Big data
+
+IAM - identity access management
